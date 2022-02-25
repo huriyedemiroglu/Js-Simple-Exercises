@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="result "></p>
+    <input type="text" id="takeNumber" />,
+    <button type="button" onClick="show()">Hesapla</button>
+    <script>
+      //5!=5*4*3*2*1;120
+      /*function show() {
+        var take,i,
+          faktor = 1;
+        take = Number(document.getElementById("takeNumber").value);
+        for (i = 1; i <= take; i++) {
+          faktor = faktor * i;
+        }
+        document.getElementById("result").innerHTML = faktor;
+      }
+        */
+      //cift tek sayi bulma
+      function show() {
+        var text = "",
+          i;
+        for (let i = 0; i <= 20; i++) {
+          if (i % 2 != 0) {
+            text += i + "<br>";
+          }
+        }
+        document.getElementById("result").innerHTML = text;
+      }
+    </script>
+  </body>
+</html>
