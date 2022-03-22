@@ -19,3 +19,20 @@ console.log(countDigitDecoding("111"));     //? Output: 3 ==> aaa, ak, ka
 console.log(countDigitDecoding("2222"));    //? Output: 5 ==> bbbb, bbv, bvb, vbb, vv 
 console.log(countDigitDecoding("33333"));   //? Output: 1 ==> ccccc
 console.log(countDigitDecoding("001"));     //? Output: "001" is not allowed
+
+
+
+///////////////////////
+
+function countEncoding(s){
+  if (s.startsWith('0')) return 0;
+  if(s.length <= 1) return 1;
+
+  let total =0
+
+  if( +s.slice(0,2) <= 26) total+= countEncoding(s.slice(2));
+  total += countEncoding(s.slice(1))
+  return total;
+}
+
+console.log(countEncoding('111'));
