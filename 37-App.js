@@ -9,3 +9,4 @@ const letterCapitalize = (str) => {
   return newStr.join(" ");
 };
 console.log(letterCapitalize("this is amazing job"));
+console.log(letterCapitalize("today is best day"));
