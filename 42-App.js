@@ -9,3 +9,5 @@ const alphabetSoup = (str)=>{
 return str.split('').sort().join('')
 }
 console.log (alphabetSoup('hello'));
+console.log (alphabetSoup('string'));
+console.log (alphabetSoup('array'));
