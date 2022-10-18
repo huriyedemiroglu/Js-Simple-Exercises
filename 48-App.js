@@ -3,9 +3,9 @@
 // take the str string parameter being passed and 
 // return the number of words the string contains
  
-const workCount=(str)=>{
+const wordCount=(str)=>{
 const count= str.trim().split(' ').length
 return count
 //  return str.trim().split(' ').length
  }
- console.log(workCount("Never eat shredded wheat"))
+ console.log(wordCount("Never eat shredded wheat"))

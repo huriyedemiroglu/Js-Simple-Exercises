@@ -1,6 +1,6 @@
 // Vowel Count
-// Using the JS langiage, have the funct VowelCount(str)
-// take the str string parameter being passed and return the Numberof vowels the string contains
+// Using the JS language, have the funct VowelCount(str)
+// take the str string parameter being passed and return the Number of vowels the string contains
 
 const vowelCount=(str)=>{
 //const arr = str.split('') == [...str]

@@ -22,9 +22,9 @@ const userValidation=(str)=>{
      (/^\w+$/).test(str)&&
      (/[a-zA-Z0-9]/).test(str.slice(-1)) // str.charAt(str.length-1)
      ){
-      return true
+      return true;
      }else{
-      return false
+      return false;
   };
 };
-console.log(userValidatin("u_hello_world123"));
+console.log(userValidation("u_hello_world123"));
