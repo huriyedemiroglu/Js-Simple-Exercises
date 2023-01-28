@@ -17,4 +17,4 @@ function searchOdd(arr) {
   }
   return result
 };
-console.log(searchOd([1,3,5,7,9,13]));
+console.log(searchOdd([1,3,5,7,9,13]));

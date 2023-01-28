@@ -18,10 +18,10 @@ let query = "de"
 console.log(autoComplete(query,array));
 
 ///// second solution/////
-let array = ["desk", "dock", "hello", "fade", "dear"]
-let pattern = "de"
+// let array = ["desk", "dock", "hello", "fade", "dear"]
+// let pattern = "de"
 
-console.log(array.filter(word => word.startsWith(pattern)))
+// console.log(array.filter(word => word.startsWith(pattern)))
 
 
 

@@ -19,3 +19,19 @@ function longestString(s,k){
 }
 
 console.log(longestString('abcba', 2));
+
+// function findLongest(s,k) {
+//   let longest = ""
+//   for (let i = 0; i < s.length; i++) {
+//     for (let j = i+1; j<= s.length; j++) {
+//       const subStr = s.slice(i,j)
+//       if (new Set(subStr).size == k && subStr.length > longest.length) {
+//         longest = subStr
+//       }
+//     }
+//   }
+
+//   return longest
+// }
+
+// console.log(findLongest("aabbbcccc",2))

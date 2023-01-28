@@ -5,7 +5,7 @@ const verify=(inputValue)=>{
   if (inputValue > maximum) return "Input is more than maximum value"
   return 'Input is in range'
 }
-return verify
+return verify()
 }
 
 console.log( make('20'))
