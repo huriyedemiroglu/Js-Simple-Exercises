@@ -1,4 +1,4 @@
-const starRatingn = (str)=>{
+const starRating = (str)=>{
   let [integer,decimal]=str.split('.')
   let int = Number(integer)
   let dec = Number(decimal)
@@ -11,3 +11,4 @@ const starRatingn = (str)=>{
   }
   return "full ".repeat(int) + "half ".repeat(dec) + "empty ".repeat(5-int-dec)
 }
+console.log(starRating("2.36"))
