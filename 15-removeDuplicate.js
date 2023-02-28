@@ -1,6 +1,6 @@
 //Find the unique numbers in Array
 ///first solution////
-let num= [0,1,2,2,3,0,4,0,2]
+let num= [0,1,2,2,3,0,4,0,2,5]
 let removeDuplicate = (num) =>{
   let set = new Set(num);
   console.log(Array.from(set));
