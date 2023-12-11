@@ -19,4 +19,4 @@
  return newStr
   }
   console.log(dashInsert2(4546793))
-  console.log(dashInsert2(123555888))
+  console.log(dashInsert2(123555))
